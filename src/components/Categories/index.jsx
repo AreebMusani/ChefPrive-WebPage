@@ -31,7 +31,7 @@ const Categories = () => {
                 index === 0 && "row-span-2 col-span-2 h-[400px] lg:h-auto"
               }`}
               // style={index === 0 ? {backgroundImage: `url(${item.url})`} : {}}
-              style={{ background: `linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1)),url(${item.url})`, backgroundSize: 'cover' }}
+              style={{ background: `linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,1)),url(${item.url})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", width: "100%", backgroundSize: 'cover' }}
             >
               {/* {index !== 0 && <img className='w-full h-full' src={item.url} alt="chef" />} */}
               <div className="absolute bottom-0 p-4 left-0 right-0">

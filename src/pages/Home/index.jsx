@@ -9,10 +9,8 @@ import HeroSection from "../../components/HeroSection";
 
 const Home = () => {
   return (
-    <>
-      <div className="w-[90%]">
-        <Header active={"Home"} />
-      </div>
+    <>      
+      <Header active={"Home"} />
       <HeroSection />
       <MobileAppPromotion />
       <PopularDishes />
